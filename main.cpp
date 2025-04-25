@@ -139,6 +139,11 @@ int main(void)
 	bool gameRunning = false;
 	bool gamePause = false;
 
+	Sound ballSound;
+
+	InitAudioDevice();
+	ballSound = LoadSound("./sounds/ball.mp3");
+
 	Vec2 ballPosInitial = { WINDOW_WIDTH * 0.5f, WINDOW_HEIGHT * 0.5f };
 	int ballRadius = 25;
 	Vec2 ballSpeed = { 6.0f, 6.0f };
@@ -256,11 +261,13 @@ int main(void)
 
 			if (isCollidingPlayer)
 			{
+				PlaySound(ballSound);
 				ball.speed.x *= -1;
 				ball.pos.x = playerPaddle.pos.x + paddleWidth + ball.radius;
 			}
 			else if (isCollidingEnemy)
 			{
+				PlaySound(ballSound);
 				ball.speed.x *= -1;
 				ball.pos.x = enemyPaddle.pos.x - ball.radius;
 			}
@@ -345,6 +352,9 @@ int main(void)
 
 		EndDrawing();
 	}
+
+	UnloadSound(ballSound);
+	CloseAudioDevice();
 
 	CloseWindow();
 
