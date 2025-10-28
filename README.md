@@ -22,7 +22,6 @@ C++, Raylib, Photoshop, Audacity
     ├── 📁 Scenes
     │   ├── 📄 Scenes.h (1.72 KB)
     │   ├── 📄 Play.cpp (2.16 KB)
-    │   ├── 📄 Plan.md (4.45 KB)
     │   ├── 📄 PauseMenu.cpp (1.13 KB)
     │   ├── 📄 Manager.h (617 Bytes)
     │   ├── 📄 Manager.cpp (827 Bytes)
@@ -40,11 +39,8 @@ C++, Raylib, Photoshop, Audacity
         │   └── 📄 t_logo.png (23.02 KB)
         ├── 📁 Sounds
         │   ├── 📄 hoverButton.wav (86.85 KB)
-        │   ├── 📄 collisionTst.wav (5.86 KB)
         │   ├── 📄 collision.wav (15.88 KB)
-        │   ├── 📄 collision.mp3 (21.09 KB)
         │   ├── 📄 bg.wav (10.13 MB)
-        │   └── 📄 bg.mp3 (2.7 MB)
         └── 📁 Fonts
             └── 📄 NotoSansJP-Regular.ttf (5.2 MB)
 ```
