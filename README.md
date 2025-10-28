@@ -49,28 +49,28 @@ C++, Raylib, Photoshop, Audacity
 ## 🖼️ Screenshots
 
 <details>
-<summary>📸 Screenshot 1</summary>
+<summary>📸 Main Menu</summary>
 
 <img width="800" height="563" alt="image" src="https://github.com/user-attachments/assets/05249337-24d8-41e6-b048-9225178acf3a" />
 
 </details>
 
 <details>
-<summary>📸 Screenshot 2</summary>
+<summary>📸 In-Game #1</summary>
 
 <img width="800" height="563" alt="image" src="https://github.com/user-attachments/assets/aba1f7f8-7427-47cf-adf0-e093753c6d49" />
 
 </details>
 
 <details>
-<summary>📸 Screenshot 3</summary>
+<summary>📸 In-Game #2</summary>
 
 <img width="800" height="563" alt="image" src="https://github.com/user-attachments/assets/b92e74bd-e51c-456b-9a2a-8e901b830e72" />
 
 </details>
 
 <details>
-<summary>📸 Screenshot 4</summary>
+<summary>📸 Pause Menu</summary>
 
 <img width="800" height="563" alt="image" src="https://github.com/user-attachments/assets/43937fb8-ca3d-4f6d-98a4-108e632cb44a" />
 
