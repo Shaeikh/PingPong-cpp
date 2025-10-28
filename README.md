@@ -1,4 +1,4 @@
-# 🏓 Ping Pong — C++ with Raylib
+# 🏓 Ping Pong - C++ with Raylib
 
 ## 🎮 Overview
 A 2D Ping Pong game built using C++ and the Raylib graphics library.
