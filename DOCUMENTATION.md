@@ -1,4 +1,4 @@
-# Ping Pong Documentation
+# Ping Pong Game Implementation
 
 ## Table of Contents
 - [Overview](#overview)
@@ -30,27 +30,35 @@ The implementation follows **object-oriented programming principles** with a cle
 ## Project Structure
 
 ```
-src/
-├── Assets/
-│   ├── Fonts/
-│   ├── Images/
-│   └── Sounds/
-├── Entities/
-│   ├── Ball.cpp
-│   ├── Entity.h
-│   ├── Player1.cpp
-│   └── Player2.cpp
-├── Scenes/
-│   ├── MainMenu.cpp
-│   ├── Manager.cpp
-│   ├── Manager.h
-│   ├── PauseMenu.cpp
-│   ├── Play.cpp
-│   └── Scenes.h
-├── UI/
-│   ├── Button.cpp
-│   └── ELement.h
-└── main.cpp
+└── 📁 src
+    ├── 📄 main.cpp (590 Bytes)
+    ├── 📁 UI
+    │   ├── 📄 ELement.h (1022 Bytes)
+    │   └── 📄 Button.cpp (1.61 KB)
+    ├── 📁 Scenes
+    │   ├── 📄 Scenes.h (1.72 KB)
+    │   ├── 📄 Play.cpp (2.16 KB)
+    │   ├── 📄 PauseMenu.cpp (1.13 KB)
+    │   ├── 📄 Manager.h (617 Bytes)
+    │   ├── 📄 Manager.cpp (827 Bytes)
+    │   └── 📄 MainMenu.cpp (1008 Bytes)
+    ├── 📁 Entities
+    │   ├── 📄 Player2.cpp (870 Bytes)
+    │   ├── 📄 Player1.cpp (370 Bytes)
+    │   ├── 📄 Entity.h (1.83 KB)
+    │   └── 📄 Ball.cpp (2.9 KB)
+    └── 📁 Assets
+        ├── 📁 Textures
+        │   ├── 📄 t_pauseLogo.psd (532.7 KB)
+        │   ├── 📄 t_pauseLogo.png (15.28 KB)
+        │   ├── 📄 t_logo.psd (602.79 KB)
+        │   └── 📄 t_logo.png (23.02 KB)
+        ├── 📁 Sounds
+        │   ├── 📄 hoverButton.wav (86.85 KB)
+        │   ├── 📄 collision.wav (15.88 KB)
+        │   ├── 📄 bg.wav (10.13 MB)
+        └── 📁 Fonts
+            └── 📄 NotoSansJP-Regular.ttf (5.2 MB)
 ```
 
 ## Core Components
