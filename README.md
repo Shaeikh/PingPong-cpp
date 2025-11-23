@@ -1,5 +1,18 @@
 # 🏓 Ping Pong - C++ with Raylib
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shaeikh/PingPong-cpp/main/src/Assets/Textures/t_logo.png" alt="Ping Pong Logo" width="200"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Shaeikh/PingPong-cpp/blob/main/DOCUMENTATION.md">
+    <img src="https://img.shields.io/badge/Documentation-blue" alt="Documentation">
+  </a>
+  <a href="https://github.com/Shaeikh/PingPong-cpp/issues">
+    <img src="https://img.shields.io/badge/Issues-green" alt="Issues Welcome">
+  </a>
+</p>
+
 ## 🎮 Overview
 A 2D Ping Pong game built using C++ and the Raylib graphics library.
 
@@ -8,11 +21,14 @@ A 2D Ping Pong game built using C++ and the Raylib graphics library.
 - Real-time collision physics
 - UI Buttons with sound feedback
 - Background music and hover effects
+- Single-player (vs AI) and two-player modes
 
 ## 🧠 Technologies
-C++, Raylib, Photoshop, Audacity
+- **Languages**: C++
+- **Frameworks**: Raylib
+- **Tools**: Photoshop, Audacity
 
-## 🏗️ Project Structure
+## 📁 Project Structure
 ```
 └── 📁 src
     ├── 📄 main.cpp (590 Bytes)
@@ -46,7 +62,6 @@ C++, Raylib, Photoshop, Audacity
 ```
 
 ## 🖼️ Screenshots
-## 🖼️ Screenshots
 
 <details>
 <summary>📸 Main Menu</summary>
@@ -76,10 +91,10 @@ C++, Raylib, Photoshop, Audacity
 
 </details>
 
+## 📚 Documentation
+For detailed information about the project structure, implementation details, and technical specifications, please refer to our [complete documentation](https://github.com/Shaeikh/PingPong-cpp/blob/main/DOCUMENTATION.md).
 
-
-
-## 📚 Learnings
+## 🎯 Learnings
 - Basic game loop and rendering
 - Object-oriented entity design
 - Input and event handling
