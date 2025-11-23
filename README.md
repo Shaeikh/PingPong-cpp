@@ -1,4 +1,4 @@
-# 🏓 Ping Pong - C++ with Raylib
+# 🏓 Ping Pong w/ Raylib + Cpp
 
 <p align="center">
   <img src="https://i.postimg.cc/TYzBZD0C/t-logo.png" alt="Ping Pong Logo" style="background-color:white" width="600"/>
