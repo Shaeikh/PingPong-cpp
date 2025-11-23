@@ -1,4 +1,4 @@
-# Ping Pong Game Implementation
+# Ping Pong Documentation
 
 ## Table of Contents
 - [Overview](#overview)
