@@ -1,15 +1,12 @@
 # 🏓 Ping Pong - C++ with Raylib
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shaeikh/PingPong-cpp/main/src/Assets/Textures/t_logo.png" alt="Ping Pong Logo" width="200"/>
+  <img src="https://i.postimg.cc/TYzBZD0C/t-logo.png" alt="Ping Pong Logo" style="background-color:white" width="600"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/Shaeikh/PingPong-cpp/blob/main/DOCUMENTATION.md">
-    <img src="https://img.shields.io/badge/Documentation-blue" alt="Documentation">
-  </a>
-  <a href="https://github.com/Shaeikh/PingPong-cpp/issues">
-    <img src="https://img.shields.io/badge/Issues-green" alt="Issues Welcome">
+    <img width="170" src="https://img.shields.io/badge/Documentation-blue" alt="Documentation">
   </a>
 </p>
 
