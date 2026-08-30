@@ -2,7 +2,6 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Project Structure](#project-structure)
 - [Core Components](#core-components)
   - [Main Application](#main-application)
   - [Entity System](#entity-system)
@@ -26,40 +25,6 @@
 This project implements a classic **Ping Pong** game using **C++** and the **Raylib** graphics library. The game features both _single-player mode_ against an AI opponent and _two-player mode_ for local multiplayer competition.
 
 The implementation follows **object-oriented programming principles** with a clear separation of concerns between game entities, scenes, and UI components.
-
-## Project Structure
-
-```
-└── 📁 src
-    ├── 📄 main.cpp (590 Bytes)
-    ├── 📁 UI
-    │   ├── 📄 ELement.h (1022 Bytes)
-    │   └── 📄 Button.cpp (1.61 KB)
-    ├── 📁 Scenes
-    │   ├── 📄 Scenes.h (1.72 KB)
-    │   ├── 📄 Play.cpp (2.16 KB)
-    │   ├── 📄 PauseMenu.cpp (1.13 KB)
-    │   ├── 📄 Manager.h (617 Bytes)
-    │   ├── 📄 Manager.cpp (827 Bytes)
-    │   └── 📄 MainMenu.cpp (1008 Bytes)
-    ├── 📁 Entities
-    │   ├── 📄 Player2.cpp (870 Bytes)
-    │   ├── 📄 Player1.cpp (370 Bytes)
-    │   ├── 📄 Entity.h (1.83 KB)
-    │   └── 📄 Ball.cpp (2.9 KB)
-    └── 📁 Assets
-        ├── 📁 Textures
-        │   ├── 📄 t_pauseLogo.psd (532.7 KB)
-        │   ├── 📄 t_pauseLogo.png (15.28 KB)
-        │   ├── 📄 t_logo.psd (602.79 KB)
-        │   └── 📄 t_logo.png (23.02 KB)
-        ├── 📁 Sounds
-        │   ├── 📄 hoverButton.wav (86.85 KB)
-        │   ├── 📄 collision.wav (15.88 KB)
-        │   ├── 📄 bg.wav (10.13 MB)
-        └── 📁 Fonts
-            └── 📄 NotoSansJP-Regular.ttf (5.2 MB)
-```
 
 ## Core Components
 
